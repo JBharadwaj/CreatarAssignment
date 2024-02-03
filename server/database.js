@@ -5,7 +5,7 @@ const mysql = require('mysql');
 const connection = mysql.createPool({
   host     : 'localhost',
   user     : 'root',
-  password : '8919544522',
+  password : 'your password here',
   database : 'books',
   insecureAuth:true
 });
