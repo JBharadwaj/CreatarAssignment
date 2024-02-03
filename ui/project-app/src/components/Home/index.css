@@ -1,0 +1,37 @@
+.home-container {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:10px;
+    background-color:whitesmoke;
+}
+
+.home-sub1-container {
+    padding:10px;
+    margin:10px;
+    border-radius:10px;
+}
+.home-sub-container {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:10px;
+    margin:10px;
+    background-color:rgb(182, 178, 178);
+    border-radius:10px;
+}
+
+.paragraph {
+    font-size:15px;
+    font-family:'Roboto';
+
+}
+
+.heading {
+    font-size:20px;
+    font-family:'Roboto';
+    font-weight:bold;
+}
+

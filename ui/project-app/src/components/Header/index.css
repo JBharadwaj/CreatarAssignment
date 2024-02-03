@@ -1,0 +1,36 @@
+.header-container {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:32px;
+    padding-left:95px;
+    padding-right:95px;
+}
+
+@media (max-width:575px) {
+    .header-container {
+        padding:15px;
+    }
+}
+
+.logo {
+    margin-top: 12px;
+    width:100px;
+    height:50px;
+    margin-right:8px;
+}
+
+.route-link {
+    color:black;
+    font-family:'Roboto';
+    font-size:16px;
+    font-weight:bold;
+    text-decoration:none;
+    margin-left:16px;
+}
+
+@media (max-width: 767px) {
+    .route-link {
+      margin-left: 10px;
+    }
+  }

@@ -1,0 +1,30 @@
+.poem-container {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background-color:orange;
+    margin-left:50px;
+    margin-right:50px;
+    padding:10px;
+    border-radius:10px;
+}
+
+@media (min-width:767px) {
+    .poem-container {
+        margin-left:500px;
+        margin-right:500px;
+    }
+}
+.poem-sub-container {
+    margin-bottom:10px;
+}
+
+.button {
+    border-radius:10px;
+    background-color:aquamarine
+}
+
+.error{
+    color:red;
+}
